@@ -144,6 +144,7 @@ h3 {
     background: var(--terracotta);
     padding: 10px 16px;
     border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 16px;
 }
 
 .whatsapp-btn:hover {
@@ -210,6 +211,7 @@ h3 {
     padding: 12px 22px;
     font-weight: 700;
     border: 1px solid transparent;
+    border-radius: 16px;
     cursor: pointer;
     transition: 0.25s ease;
 }
