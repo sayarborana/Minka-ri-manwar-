@@ -17,3 +17,11 @@ menuToggle.addEventListener("click", function () {
     navbar.classList.toggle("active");
 
 });
+
+navbar.querySelectorAll("a").forEach(function (link) {
+
+    link.addEventListener("click", function () {
+        navbar.classList.remove("active");
+    });
+
+});
