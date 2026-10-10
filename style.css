@@ -877,3 +877,13 @@ h3 {
     font-size: 13px;
   }
     }
+/* Mobile: Send Inquiry Button */
+@media (max-width: 768px) {
+  .contact-form button[type="submit"] {
+    display: inline-block;
+    width: auto;
+    min-width: 0;
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
