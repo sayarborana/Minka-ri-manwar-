@@ -862,3 +862,11 @@ h3 {
     line-height: 1.6;
   }
     }
+@media (max-width: 768px) {
+  .rajasthani-special .btn {
+    width: auto;
+    min-width: 0;
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}
