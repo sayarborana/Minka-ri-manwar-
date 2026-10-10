@@ -710,21 +710,15 @@ h3 {
 @media (max-width: 768px) {
 @media (max-width: 768px) {
   .menu-grid {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 12px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
 
-  .menu-card {
-    grid-column: span 3;
-    border-radius: 10px;
-  }
-
-  .menu-card:nth-child(3),
-  .menu-card:nth-child(4),
-  .menu-card:nth-child(5) {
-    grid-column: span 2;
-  }
+.menu-card {
+  grid-column: auto;
+  border-radius: 10px;
+}
 
   .menu-card img {
     aspect-ratio: 4 / 3;
