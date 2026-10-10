@@ -884,16 +884,3 @@ h3 {
     font-size: 14px;
   }
 }
-/* Menu price visibility fix */
-.menu .menu-card .menu-card-content .menu-price {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    color: #A94E32 !important;
-    font-size: 18px !important;
-    font-weight: 700 !important;
-    line-height: 1.5 !important;
-    margin-top: 10px !important;
-    position: relative !important;
-    z-index: 2 !important;
-}
